@@ -1,6 +1,5 @@
 # RamerDouglasPeucker-ExcelVBA
-I was frustrated by the lack of a fast excel implementation of the Ramer–Douglas–Peucker algorithm, so after quite a few days of getting lost in recursion I made my own.
-https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm
+I was frustrated by the lack of a fast excel implementation of the Ramer–Douglas–Peucker algorithm, so after quite a few days of getting lost in recursion I made my own. My work is based on the pseudocode presented on the wikipedia article https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm.
 My code requires three things to be present in an excel file; though you can obviously edit the code to fit your worksheet.
 1. A named range called "epsilon",
 2. An excel table on "Sheet1" named "Table1"
